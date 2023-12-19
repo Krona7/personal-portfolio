@@ -10,6 +10,9 @@ body {
     height: 50px;
     background-color: #1b1b32;
     display: flex;
+    position: fixed;
+    top: 0;
+    
   }
   
   #logo {
@@ -87,3 +90,48 @@ section {
   margin: 0 auto 10px auto;
   max-width: 600px;
 }
+
+input {
+  font-size: 16px;
+}
+
+.info input {
+  width: 50%;
+  text-align: left;
+}
+
+.info {
+  padding: 10px 0 0 5px;
+}
+
+.formrow {
+  margin-top: 30px;
+  padding: 0px 15px;
+}
+.answers-list{
+list-style: none;
+padding: 0%;
+}
+
+button {
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 15px;
+  font-size: 23px;
+  background: rgb(85, 15, 189), 209, 213);
+  border: 3px solid #bd677a;
+}
+
+footer {
+  background-color: #19bdb5;
+  display: flex;
+  justify-content: center;
+}
+footer,footer a{
+   color: azure;
+}
+*{
+  scroll-behavior: smooth;
+}
+
