@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
 body {
     background:linear-gradient(yellow,rgb(124, 240, 168));
     color: #1b1b32;
@@ -11,7 +17,7 @@ body {
     background-color: #1b1b32;
     display: flex;
     position: fixed;
-    top: 0;
+    top: 90;
     
   }
   
@@ -131,7 +137,5 @@ footer {
 footer,footer a{
    color: azure;
 }
-*{
-  scroll-behavior: smooth;
-}
+
 
